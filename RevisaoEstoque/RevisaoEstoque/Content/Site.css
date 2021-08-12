@@ -1,0 +1,69 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px; 
+}
+.nometabelat {
+    width: 350px;
+    text-align: center;
+    font-size:16px;
+}
+.ativotabelat {
+    width: 100px;
+    text-align: center;
+    font-size: 16px;
+}
+.acaotabelat {
+    width: 132px;
+    text-align: center;
+    font-size: 16px;
+}
+.nometabela {
+    text-align: center;
+}
+
+.ativotabela {
+    text-align: center;
+}
+
+.acaotabela {
+    text-align: center;
+}
+
+#btn_incluir{
+    width: 250px;
+}
+#cabecalho_grid{
+    display: flex;
+    justify-content:center;
+    margin: 20px;
+}
+body {
+    background-image: url("");
+}
+
+.invisivel{
+    display: none;
+}
+.linhacaixa{
+    color: black;
+}
